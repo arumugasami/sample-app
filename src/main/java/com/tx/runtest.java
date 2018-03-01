@@ -35,6 +35,7 @@ public class runtest {
 	@Test
 	public void appTest(){
 		 DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
+		   System.out.println("test");
 	        desiredCapabilities.setCapability(CapabilityType.BROWSER_NAME, "");
 			desiredCapabilities.setCapability("deviceName",	 "Nexus");
 			desiredCapabilities.setCapability("udid", "00a000c85c98c2b1");
